@@ -8,7 +8,7 @@ my text here
 
 ### 1. Download 
 
-Download the yoga mat from the official store and follow the installation guide.
+Download the Blahaj from the official store and follow the installation guide.
 
 https://rubixcreates.gumroad.com/l/YogaMat?layout=profile&recommended_by=library
 
@@ -20,29 +20,25 @@ https://rubixcreates.gumroad.com/l/YogaMat?layout=profile&recommended_by=library
 
 ### 3. Installation
 
-Open the assets folder and drag the No Texture Swap Prefab into your Avatar Root.
+Open the assets folder and drag the Blahaj Quest Prefab into your Avatar Root.
+
+![](img/firstpicture.png)
+
+Click on the prefab and go down to the mesh. 
 
 ![](img/1.png)
 
-Click on the prefab and go down to Rounded Mat, click on the Shader Arrow. 
+From there click on the material.
 
 ![](img/2.png)
 
-From there click on the material.
-
-![](img/3.png)
-
 Now just right click the material, click on show in explorer and replace it with the edited picture you downloaded before.
 
-![](img/4.png)
+![](img/3.png)![](img/4.png)
 
-Make sure its in the Design 1 folder.
+If done correctly you should now have this Zlahaj.
 
 ![](img/5.png)
-
-If done correctly you should now have this Yoga Mat.
-
-![](img/6.png)
 
 
 
