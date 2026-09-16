@@ -16,3 +16,8 @@ https://icon-icons.com/icon/reddit-pixel-logo/181927
 
 ## `rainbow.gif`
 https://github.com/divshot/geo-bootstrap/blob/master/img/rainbow.gif
+
+## `cat-dance-emoji.gif`
+unknown original source for the transparent version or who made the gif, but the original is from here:
+https://web.archive.org/web/20151113023152/https://imgur.com/gallery/BALT0No
+https://sillycattvseries.fandom.com/wiki/Happy_Cat

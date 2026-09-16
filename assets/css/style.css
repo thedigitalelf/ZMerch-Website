@@ -284,10 +284,10 @@ h3.topic-title > i {
   background: url(../img/rainbow.gif) left top rgb(0, 0, 0);
 }
 .is-rainbow::after {
-  box-shadow: none;
+  box-shadow: inset -4px -4px #8a8a8aab;
 }
 .is-rainbow:hover::after {
-  box-shadow: inset -6px -6px #49494999;
+  box-shadow: inset -8px -8px #49494999;
 }
 
 /* Scroll back to top */
