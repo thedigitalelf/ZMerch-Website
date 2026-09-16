@@ -13,3 +13,6 @@ https://www.reddit.com/r/PixelArt/comments/o30iwu/discords_logo/
 
 ## `reddit-pixel.png`
 https://icon-icons.com/icon/reddit-pixel-logo/181927
+
+## `rainbow.gif`
+https://github.com/divshot/geo-bootstrap/blob/master/img/rainbow.gif

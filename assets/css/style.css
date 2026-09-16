@@ -270,6 +270,26 @@ h3.topic-title > i {
   margin-left: 1rem;
 }
 
+.fun-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 2rem;
+  box-shadow: 0 5px 20px rgba(0,0,0,.6);
+  transition: all 0.3s ease;
+}
+.fun-btn.active {
+  bottom: 25px;
+}
+.is-rainbow {
+  background: url(../img/rainbow.gif) left top rgb(0, 0, 0);
+}
+.is-rainbow::after {
+  box-shadow: none;
+}
+.is-rainbow:hover::after {
+  box-shadow: inset -6px -6px #49494999;
+}
+
 /* Scroll back to top */
 .scroll-btn {
   position: fixed;
