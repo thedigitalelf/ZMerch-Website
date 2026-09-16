@@ -41,7 +41,7 @@
           </div>
         </div>
       </header>
-      <div class="container">
+      <div class="container" style="padding-top:32px">
         <main class="main-content">
           <div class="nes-container with-title is-centered">
             <p class="title">
@@ -63,17 +63,21 @@
           <p>choose your future~</p>
           <menu class="dialog-menu">
             <button class="nes-btn">boring mode plz</button>
-            <button class="nes-btn is-primary" onClick="funModeENABLED()">I WANT FUN!</button>
+            <button class="nes-btn is-rainbow" onClick="funModeENABLED()">
+              I WANT FUN!
+            </button>
           </menu>
         </form>
       </dialog>
     </section>
-    <div id="music" style="visibility: hidden;">
-      <audio loop controls>
-        <source src="assets/audio/BALKAN-TECHNO-REMIX.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+    <button id="fun-btn" class="fun-btn nes-btn is-rainbow" style="visibility: hidden;" onClick="toggleFunMode()">
+      <img class="fun-active" height="100px" src="assets/img/cat-dance-emoji.gif" style="margin: -64px -32px -8px -32px" />
+      <span id="fun-txt">fun active</span>
+    </button>
+    <audio loop controls style="visibility: hidden;">
+      <source src="assets/audio/BALKAN-TECHNO-REMIX.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
   </body>
   <script>
     let shownDialog = false;
@@ -83,13 +87,34 @@
       document.getElementById('dialog-opt-in').showModal();
     }
 
-    let startedFunMode = false;
+    let funModeRunning = false;
     function funModeENABLED () {
-      if (!startedFunMode) {
-        startedFunMode = true;
-        const audio = document.querySelector("audio");
+      funModeRunning = false;
+      toggleFunMode();
+    }
+    function toggleFunMode() {
+      const audio = document.querySelector("audio");
+      const funBtn = document.getElementById("fun-btn")
+      const funBtnTxt = document.getElementById("fun-txt")
+      const funToggles = document.querySelectorAll('.fun-active')
+      if (!funModeRunning) {
+        funModeRunning = true;
+        funBtn.style.visibility = "visible";
+        funBtnTxt.textContent = "FUN ACTIVE!";
         audio.volume = 0.05;
         audio.play();
+
+        funToggles.forEach(element => {
+          element.style.display = "inline-block"
+        })
+      } else {
+        funModeRunning = false;
+        funBtnTxt.textContent  = "MOAR FUN PLZ!";
+        audio.pause();
+
+        funToggles.forEach(element => {
+          element.style.display = "none"
+        })
       }
     }
 
