@@ -1,20 +1,118 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <head>
     <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
-    <style>
-      html, body, pre, code, kbd, samp {
-          font-family: "Press Start 2P";
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="nescss">
+      <header class="">
+        <div class="container">
+          <div class="nav-brand">
+            <a href="https://zmerch.store">
+              <h1>
+                <img src="assets/img/logo.png" style="height:80px;image-rendering: pixelated;" />
+                <font dir="auto" style="vertical-align: inherit;">
+                  <font dir="auto" style="vertical-align: inherit;">zmerch.store</font>
+                </font>
+              </h1>
+            </a> 
+            <p>
+              <font dir="auto" style="vertical-align: inherit;">
+                <font dir="auto" style="vertical-align: inherit;">a thank you to zrock for all the fun ;p</font>
+              </font>
+            </p>
+          </div> 
+          <!--<div class="social-buttons">
+            <p>
+              <font dir="auto" style="vertical-align: inherit;">
+                <font dir="auto" style="vertical-align: inherit;">Share on social media</font>
+              </font>
+            </p>
+            <div class="share">
+              <a href="https://twitter.com/share?text=NES.css%EF%BD%9CNES-style%20CSS%20Framework%20%40bc_rikko&amp;url=https://nostalgic-css.github.io/NES.css/" target="_blank">
+                <i class="nes-icon twitter"></i>
+              </a> 
+              <a href="https://www.facebook.com/sharer.php?u=https://nostalgic-css.github.io/NES.css/&amp;t=NES.css%EF%BD%9CNES-style%20CSS%20Framework" target="_blank">
+                <i class="nes-icon facebook"></i>
+              </a> 
+              <a href="https://www.linkedin.com/shareArticle?url=https%3A//nostalgic-css.github.io/NES.css/&amp;title=NES.css%EF%BD%9CNES-style%20CSS%20Framework" target="_blank">
+                <i class="nes-icon linkedin"></i>
+              </a> 
+              <a href="https://github.com/nostalgic-css/NES.css" target="_blank">
+                <i class="nes-icon github"></i>
+              </a>
+            </div>
+          </div>-->
+        </div>
+      </header>
+      <div class="container">
+        <main class="main-content">
+          <div class="nes-container with-title is-centered">
+            <p class="title">
+              <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">wow very site</font></font>
+            </p>
+            <p>
+              <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">very nice, very good</font></font>
+            </p>
+          </div>
+          <img src="assets/img/construct.gif" style="width: 100%;" />
+        </main>
+      </div>
+    </div>
+    <!-- Dark and Rounded dialog -->
+    <section>
+      <dialog class="nes-dialog is-dark is-rounded" id="dialog-opt-in">
+        <form method="dialog">
+          <p class="title">WELCOME!!!!! :3</p>
+          <p>choose your future~</p>
+          <menu class="dialog-menu">
+            <button class="nes-btn">boring mode plz</button>
+            <button class="nes-btn is-primary" onClick="funModeENABLED()">I WANT FUN!</button>
+          </menu>
+        </form>
+      </dialog>
+    </section>
+    <div id="music" style="visibility: hidden;">
+      <audio loop controls>
+        <source src="assets/audio/BALKAN-TECHNO-REMIX.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </body>
+  <script>
+    let shownDialog = false;
+
+    if (!shownDialog) {
+      shownDialog = true;
+      document.getElementById('dialog-opt-in').showModal();
+    }
+
+    let startedFunMode = false;
+    function funModeENABLED () {
+      if (!startedFunMode) {
+        startedFunMode = true;
+        const audio = document.querySelector("audio");
+        audio.volume = 0.05;
+        audio.play();
       }
-    </style>
-</head>
-<body>
+    }
 
-<h1>wow very site</h1>
-<p>very nice, very good</p>
+    window.addEventListener('click', () => {
 
-<img src="assets/img/construct.gif" style="width: 100%;" />
-
-</body>
+      const audio = document.querySelector("audio");
+      if (!isPlaying) {
+        audio.volume = 0.05;
+    
+      // Explicitly play and handle potential browser block restrictions
+      audio.play()
+        .then(() => {
+          console.log("Muted autoplay started successfully!");
+        })
+        .catch((error) => {
+          console.log("Autoplay was prevented:", error);
+        });
+      } 
+    });
+    </script>
 </html>
