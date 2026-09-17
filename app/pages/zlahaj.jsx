@@ -45,7 +45,7 @@ export function Zlahaj(){
             <img className="h-full m-auto" src="/img/shorkk-3.png" />
           </div>
           <img className="w-40 m-auto mt-6" src="/img/soon.gif" />
-          <NavLink className="mt-6" to="/guides/zlahaj">Read Install Guide</NavLink>
+          <NavLink className="mt-6" to="/guides/zlahaj/">Read Install Guide</NavLink>
           <a href="/assets/zlahaj_v1-0-0.zip" download>
             <div className="flex flex-row h-24 mt-2 items-center">
               <div className="flex-1"><img className="w-full" src="/img/download-spin-orange.gif" /></div>
