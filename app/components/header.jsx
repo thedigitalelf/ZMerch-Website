@@ -24,6 +24,7 @@ export function Header(){
           </div>
         </div>
       </div>
+      <div className="slimeBar">&nbsp;</div>
     </header>
 	)
 }

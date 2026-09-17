@@ -21,3 +21,16 @@ https://github.com/divshot/geo-bootstrap/blob/master/img/rainbow.gif
 unknown original source for the transparent version or who made the gif, but the original is from here:
 https://web.archive.org/web/20151113023152/https://imgur.com/gallery/BALT0No
 https://sillycattvseries.fandom.com/wiki/Happy_Cat
+
+## `slimebar.gif`
+https://web.archive.org/web/20091021223838/http://geocities.com/lady_rebel_liteoluv/happy_halloween.html
+
+## `counter2.gif`
+Original asset unknown, pulled from GeoBootstrap
+
+## `footer-hearts.gif`
+(dont open this site, it downloads some weird shit, but this is where its from originally)
+https://web.archive.org/web/20090902181803/http://geocities.com/vatm11/Virus_KangTa.html
+
+## `lemmings-footer.gif`
+https://web.archive.org/web/20091024102047/http://geocities.com/golfbooking/Contest.html

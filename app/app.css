@@ -360,3 +360,9 @@ img.lazy {
 .nes-container.with-title.is-centered>.title {
   margin: -2.4rem auto 1rem;
 }
+
+.slimeBar {
+  background-image: url('img/slimebar.gif');
+  background-repeat: repeat-x;
+  margin-bottom: -26px;
+}
