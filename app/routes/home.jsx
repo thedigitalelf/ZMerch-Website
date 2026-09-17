@@ -2,8 +2,8 @@ import { Home } from "../pages/home";
 
 export function meta({}) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "zmerch! owo" },
+    { name: "description", content: ":3 for them silly folkz~" },
   ];
 }
 

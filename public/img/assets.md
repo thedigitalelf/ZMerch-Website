@@ -1,5 +1,7 @@
 # Credits to the original creators
-Some gifs are from the Internet Archives "gifcities.org" site :) https://gifcities.org/
+most gifs are from the Internet Archives "gifcities.org" site(s) :3
+- https://gifcities.org/
+- https://gifcities.neocities.org/
 
 ## `new.gif`
 https://web.archive.org/web/20091027013815/http://www.geocities.com/rigmiester/middleframe.html
@@ -55,3 +57,43 @@ https://web.archive.org/web/20090903063823/http://geocities.com/westieloverx2/li
 
 ## `Goldn_Puppy.gif`
 https://web.archive.org/web/20091024180506/http://geocities.com/davincigoldens/contact.html
+
+## `flashing-rainbow-stars.gif`
+https://web.archive.org/web/20091025174234/http://geocities.com/rolagay3/0112b03discriminacion.htm
+
+## `download.gif`
+cant remember... will try to find again >~<
+
+## `download-2.gif`
+https://web.archive.org/web/20020705014057/http://geocities.com:80/pubudusl/gifs/download.gif
+
+## `wow1-1.gif`
+https://blog.archive.org/2025/06/09/keep-on-gifin-a-new-version-of-gifcities-internet-archives-geocities-animated-gif-search-engine/
+
+## `new3-3.gif`
+https://blog.archive.org/2025/06/09/keep-on-gifin-a-new-version-of-gifcities-internet-archives-geocities-animated-gif-search-engine/
+
+## `toast.gif`
+https://web.archive.org/web/20090724222440/http://de.geocities.com/egosclan/bilder/butterbrot.html
+
+## `toast-new.gif`
+https://web.archive.org/web/20091024124728/http://geocities.com/cissygold/kellychen.html
+
+## `ch_to_view.gif`
+https://web.archive.org/web/20091027132004/http://geocities.com/texrobinboots/aboutme.htm
+
+## `sharkfin.gif` & `undersea.mid`
+https://web.archive.org/web/20090731064509/http://geocities.com/Colosseum/Park/8952/index.html
+
+## `jootsharkopt.gif`
+omg so cute!!
+https://web.archive.org/web/20091022022042/http://geocities.com/mtnmamaj/Joot
+
+## `shark.gif`
+https://web.archive.org/web/20090830225949/http://geocities.com/Hollywood/Boulevard/2625/
+
+## `View-3.gif`
+https://web.archive.org/web/20091026234401/http://asia.geocities.com/sbsalon/index.html
+
+## `NOWAVAILABLE.gif`
+https://web.archive.org/web/20090902165608/http://geocities.com/towertelecoms/R310s.htm

@@ -8,7 +8,7 @@ body {
 }
 
 #nescss > .body-container {
-  max-width: 980px;
+  max-width: 1400px;
   margin: 0 auto;
   margin-top: 150px;
 }
@@ -163,6 +163,10 @@ section.showcase > section.samplecode > pre code {
 .item.containers > .nes-container {
   display: inline-block;
   max-width: 400px;
+}
+
+.nes-container {
+  padding: 0.25rem 0.5rem;
 }
 
 /* Balloons sample */
@@ -356,9 +360,20 @@ img.lazy {
   justify-content: center;
   align-items: center;
 }
+.nes-container.with-title {
+  margin-top:16px;
+}
 
-.nes-container.with-title.is-centered>.title {
-  margin: -2.4rem auto 1rem;
+.nes-container.with-title.is-centered .title {
+  margin: -1rem auto 1rem;
+}
+
+.nes-container-title {
+  display: table;
+  padding: 0 .5rem;
+  margin: -1rem auto 1rem;
+  font-size: 1rem;
+  background-color: #fff;
 }
 
 .slimeBar {
@@ -387,4 +402,13 @@ img.lazy {
   mask: url("/img/DVD_logo.svg") no-repeat center / contain;
   -webkit-mask: url("/img/DVD_logo.svg") no-repeat center / contain;
   will-change: transform;
+}
+
+.normal-link-text {
+  color: #000;
+  text-decoration: none;
+}
+.normal-link-text:hover {
+  color: #000;
+  text-decoration: none;
 }
