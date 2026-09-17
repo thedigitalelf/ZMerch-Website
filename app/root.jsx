@@ -8,6 +8,9 @@ import {
 } from "react-router";
 import { AudioProvider, FunMode } from './components/funMode'
 
+import { Header } from './components/header'
+import { Footer } from './components/footer'
+
 import "./app.css";
 
 export function Layout({ children }) {
@@ -24,8 +27,13 @@ export function Layout({ children }) {
       </head>
       <body>
         <AudioProvider>
-          {children}
-          <FunMode />
+
+          <div id="nescss">
+            <Header />
+            {children}
+            <FunMode />
+            <Footer />
+          </div>
         </AudioProvider>
         <ScrollRestoration />
         <Scripts />
