@@ -1,13 +1,15 @@
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 import { NavLink } from 'react-router'
 import { Header } from '../components/header'
 import { Footer } from '../components/footer'
 
 import { useAudio } from '../components/funMode'
+import { DownloadModal } from '../components/downloadModal'
 
 export function Zlahaj(){
   const { currentSong, setCurrentSong } = useAudio();
+  const [triggerDownload, setTriggerDownload] = useState(false);
 
   useEffect(() => {
     setCurrentSong("/audio/undersea.mp3")
@@ -46,7 +48,7 @@ export function Zlahaj(){
           </div>
           <img className="w-40 m-auto mt-6" src="/img/soon.gif" />
           <NavLink className="mt-6" to="/guides/zlahaj/">Read Install Guide</NavLink>
-          <a href="/assets/zlahaj_v1-0-0.zip" download>
+          <a href="#" onClick={() => setTriggerDownload(true)}>
             <div className="flex flex-row h-24 mt-2 items-center">
               <div className="flex-1"><img className="w-full" src="/img/download-spin-orange.gif" /></div>
               <div className="flex-1"><img className="w-full" src="/img/mp3-download.gif" /></div>
@@ -56,6 +58,7 @@ export function Zlahaj(){
             </div>
           </a>
           <img className="w-full" src="/img/jootsharkopt.gif" />
+          {triggerDownload && <DownloadModal file="/assets/zlahaj_v1-0-0.zip" />}
         </div>
       </div>
     </div>

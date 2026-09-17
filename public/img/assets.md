@@ -177,3 +177,12 @@ https://web.archive.org/web/20090830111807/http://geocities.com/casinofortun0101
 
 ## `free-download.gif`
 https://web.archive.org/web/20090724030151/http://hk.geocities.com/auyiwo/home7b-1.htm
+
+## `downloading_cop_checking.gif`
+https://web.archive.org/web/20050623031711/http://www.geocities.com/cmkoen002/cop_checking.gif
+
+## `downloading-devil.gif`
+https://web.archive.org/web/20091027040824/http://uk.geocities.com/yogouchy/animeted_smilies_page_2.html
+
+## `humor_banner_download.gif`
+https://web.archive.org/web/20020307130211/http://geocities.com:80/cwolfe28/humor_banner.gif

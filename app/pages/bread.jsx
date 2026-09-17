@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 import { NavLink } from 'react-router'
 import { Header } from '../components/header'
@@ -6,10 +6,12 @@ import { Footer } from '../components/footer'
 
 import { useAudio } from '../components/funMode'
 import { useDVD } from '../components/dvd'
+import { DownloadModal } from '../components/downloadModal'
 
 export function Bread(){
   const { setCurrentSong } = useAudio();
   const { setCurrentDVD } = useDVD();
+  const [triggerDownload, setTriggerDownload] = useState(false);
 
   useEffect(() => {
     setCurrentSong("/audio/Anya_Nami_-_Bread_(Official_Music_Video).mp3")
@@ -49,7 +51,7 @@ export function Bread(){
           </div>
           <img className="w-40 m-auto mt-6" src="/img/soon.gif" />
           <NavLink className="mt-6" to="/guides/baguette/">Read Install Guide</NavLink>
-          <a href="/assets/bread_v1-0-0.zip" download>
+          <a href="#" onClick={() => setTriggerDownload(true)}>
             <div className="flex flex-row h-24 mt-2 items-center">
               <div className="flex-1"><img className="w-full" src="/img/download-com.gif" /></div>
               <div className="flex-1"><img className="w-full" src="/img/download-sparkle.gif" /></div>
@@ -59,6 +61,7 @@ export function Bread(){
             </div>
           </a>
           <img className="w-full" src="/img/cbbreadanim.gif" />
+          {triggerDownload && <DownloadModal file="/assets/bread_v1-0-0.zip" />}
         </div>
       </div>
     </div>

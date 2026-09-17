@@ -71,7 +71,7 @@ export function FunMode () {
               <p className="title">WELCOME!!!!! :3</p>
               <p>choose your future~</p>
               <menu className="dialog-menu">
-                <button className="nes-btn" onClick={() => setShowDialog(false)}>boring mode plz</button>
+                <button className="nes-btn" onClick={() => setShowDialog(false)}>im boring n stinky</button>
                 <button className="nes-btn is-rainbow" onClick={() => funModeENABLED()}>
                   I WANT FUN! :3
                 </button>
