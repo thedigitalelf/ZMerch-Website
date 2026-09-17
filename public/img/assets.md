@@ -13,8 +13,8 @@ https://web.archive.org/web/20091021104436/http://geocities.com/captainfunky99/k
 Reddit: /u/IntermediateGameDev
 https://www.reddit.com/r/PixelArt/comments/o30iwu/discords_logo/
 
-## `reddit-pixel.png`
-https://icon-icons.com/icon/reddit-pixel-logo/181927
+## `reddit-pixel.png` & `github-pixel.png`
+https://nostalgic-css.github.io/NES.css
 
 ## `rainbow.gif`
 https://github.com/divshot/geo-bootstrap/blob/master/img/rainbow.gif

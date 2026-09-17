@@ -16,12 +16,15 @@ export function Header(){
         </div> 
         <div className="social-buttons flex-col md:visible hidden md:flex">
           <p>socials</p>
-          <div className="share flex flex-row gap-4">
+          <div className="share flex flex-row gap-2">
             <a href="https://discord.com/invite/slimevr" target="_blank">
               <img src="/img/discord-pixel.png" style={{borderRadius: "8px"}} width="48" />
             </a>
             <a href="https://www.reddit.com/r/SlimeVR/" target="_blank">
               <img src="/img/reddit-pixel.png" width="48" />
+            </a>
+            <a href="https://github.com/thedigitalelf/ZMerch-Website" target="_blank">
+              <img src="/img/github-pixel.png" width="48" />
             </a>
           </div>
         </div>
