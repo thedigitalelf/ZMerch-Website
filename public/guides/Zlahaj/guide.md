@@ -1,8 +1,6 @@
 # Zrock Yoga Mat
 
-![](img/yoga-zen-preview.webp)
-
-my text here
+![](img/zlahaj-preview.webp)
 
 ## Add to your avatar:
 
@@ -10,7 +8,7 @@ my text here
 
 Download the Blahaj from the official store and follow the installation guide.
 
-https://rubixcreates.gumroad.com/l/YogaMat?layout=profile&recommended_by=library
+[https://maybejari.gumroad.com/l/blahaj](https://maybejari.gumroad.com/l/blahaj)
 
 ![](img/OfficialStore.png)
 

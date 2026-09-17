@@ -1,6 +1,6 @@
 import Markdown from 'react-markdown'
 
-import zlahaj from '../../guides/Zlahaj/guide.md?raw'
+import zlahaj from '../../public/guides/Zlahaj/guide.md?raw'
 
 export function Guides({guide}){
   let guideText;
@@ -13,8 +13,10 @@ export function Guides({guide}){
       break;
   }
   return(
-    <Markdown>
-      {guideText}
-    </Markdown>
+    <div className="body-container" style={{paddingTop: "0px"}}>
+      <Markdown>
+        {guideText}
+      </Markdown>
+    </div>
   )
 }
