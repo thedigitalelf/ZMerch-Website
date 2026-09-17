@@ -1,4 +1,4 @@
-# Zrock Yoga Mat
+# Zrock Body Pillow
 
 ![](img/yoga-zen-preview.webp)
 
@@ -8,23 +8,24 @@ my text here
 
 ### 1. Download 
 
-Download the yoga mat from the official store and follow the installation guide.
+Download the Body Pillow from the official store and follow the installation guide.
 
-https://rubixcreates.gumroad.com/l/YogaMat?layout=profile&recommended_by=library
+https://de.jinxxy.com/DingleDangleDof/iJ1Bk
 
 ![](img/OfficialStore.png)
 
 ### 2. Download the Edit
 
+### DISCLAIMER the Body Pillow Image is AI Generated (I cannot draw)
 ![](img/picturefortheedithereIguess)
 
 ### 3. Installation
 
-Open the assets folder and drag the No Texture Swap Prefab into your Avatar Root.
+Open the assets folder and drag the Body Pillow Prefab into your Avatar Root.
 
 ![](img/1.png)
 
-Click on the prefab and go down to Rounded Mat, click on the Shader Arrow. 
+Click on the prefab and go down to Pillow, click on the Shader Arrow. 
 
 ![](img/2.png)
 
@@ -34,15 +35,15 @@ From there click on the material.
 
 Now just right click the material, click on show in explorer and replace it with the edited picture you downloaded before.
 
-![](img/4.png)
+![](img/4.png) ![](img/5.png)
 
-Make sure its in the Design 1 folder.
-
-![](img/5.png)
-
-If done correctly you should now have this Yoga Mat.
+If done correctly you should now have a ZRock Body Pillow.
 
 ![](img/6.png)
+
+PS make sure to disable the prefab before uploading it
+
+![](img/7.png)
 
 
 
