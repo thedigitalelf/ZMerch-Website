@@ -1,4 +1,4 @@
-# Zrock Yoga Mat
+# Zguette
 
 ![](img/yoga-zen-preview.webp)
 
@@ -8,9 +8,9 @@ my text here
 
 ### 1. Download 
 
-Download the yoga mat from the official store and follow the installation guide.
+Download the Baguette from the official store and follow the installation guide.
 
-https://rubixcreates.gumroad.com/l/YogaMat?layout=profile&recommended_by=library
+https://de.jinxxy.com/Smoresvr/WZyCq
 
 ![](img/OfficialStore.png)
 
@@ -20,29 +20,25 @@ https://rubixcreates.gumroad.com/l/YogaMat?layout=profile&recommended_by=library
 
 ### 3. Installation
 
-Open the assets folder and drag the No Texture Swap Prefab into your Avatar Root.
+Open the assets folder and drag the Baguette Prefab into your Avatar Root.
 
 ![](img/1.png)
 
-Click on the prefab and go down to Rounded Mat, click on the Shader Arrow. 
+Click on the prefab and apply all the changes shown in the image, make sure the prefab is hold by your right hand
 
-![](img/2.png)
+![](img/2.png) ![](img/3.png)
 
-From there click on the material.
-
-![](img/3.png)
-
-Now just right click the material, click on show in explorer and replace it with the edited picture you downloaded before.
+From here click on baguette and go down to (the other baguette...), click on shader and click on the material.
 
 ![](img/4.png)
 
-Make sure its in the Design 1 folder.
+Now just right click the material, click on show in explorer and replace it with the edited picture you downloaded before.
 
-![](img/5.png)
+![](img/5.png) ![](img/6.png)
 
-If done correctly you should now have this Yoga Mat.
+If done correctly you should now have a Zguette.
 
-![](img/6.png)
+![](img/7.png)
 
 
 
