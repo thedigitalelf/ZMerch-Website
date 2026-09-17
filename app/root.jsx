@@ -19,6 +19,7 @@ export function Layout({ children }) {
         <Links />
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+        <title>zmerch! owo</title>
       </head>
       <body>
         {children}

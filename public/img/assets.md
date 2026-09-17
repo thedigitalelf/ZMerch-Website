@@ -37,3 +37,21 @@ https://web.archive.org/web/20091024102047/http://geocities.com/golfbooking/Cont
 
 ## `DVD_logo.svg`
 https://upload.wikimedia.org/wikipedia/commons/9/9b/DVD_logo.svg
+
+## `rainbow-sparkle.gif`
+https://web.archive.org/web/20090728100715/http://hk.geocities.com/katykissbo/logods_3.html
+
+## `pink-blue-squares.gif`
+https://web.archive.org/web/20091027135108/http://geocities.com/aayadghananim/divider.gif
+
+## `aniclawflag.gif`
+https://web.archive.org/web/20091023003310/http://geocities.com/westhollywood/village/7698/bears3.html
+
+## `transflaganim.gif`
+https://www.furaffinity.net/view/53185034/
+
+## `paw-rainbow.gif`
+https://web.archive.org/web/20090903063823/http://geocities.com/westieloverx2/links.html
+
+## `Goldn_Puppy.gif`
+https://web.archive.org/web/20091024180506/http://geocities.com/davincigoldens/contact.html
