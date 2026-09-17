@@ -6,6 +6,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
+import { AudioProvider, FunMode } from './components/funMode'
 
 import "./app.css";
 
@@ -22,7 +23,10 @@ export function Layout({ children }) {
         <title>zmerch! owo</title>
       </head>
       <body>
-        {children}
+        <AudioProvider>
+          {children}
+          <FunMode />
+        </AudioProvider>
         <ScrollRestoration />
         <Scripts />
       </body>

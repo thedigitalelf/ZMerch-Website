@@ -1,10 +1,32 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, createContext, useContext } from 'react';
 import { DVDLogo } from './dvd'
+
+const AudioContext = createContext(null);
+export function AudioProvider({ children }) {
+  const [currentSong, setCurrentSong] = useState("/audio/BALKAN-TECHNO-REMIX.mp3");
+  return (
+    <AudioContext.Provider value={{ currentSong, setCurrentSong }}>
+      {children}
+    </AudioContext.Provider>
+  );
+}
+export const useAudio = () => useContext(AudioContext);
 
 export function FunMode () {
   const [showDialog, setShowDialog] = useState(true);
   const [funMode, setFunMode] = useState(false);
   const [funModeActive, setFunModeActive] = useState(true);
+
+  const { currentSong } = useAudio();
+
+  useEffect(() => {
+    const audio = document.querySelector("audio");
+    let playing = !audio.paused;
+    audio.src = currentSong;
+    if (playing) {
+      audio.play()
+    }
+  }, [currentSong])
 
   // let funModeRunning = false;
   function funModeENABLED () {
@@ -68,7 +90,7 @@ export function FunMode () {
         <div style={{visibility: funModeActive ? "visible" : "hidden"}}><DVDLogo /></div>
       }
       <audio loop controls style={{visibility: "hidden"}}>
-        <source src="/audio/BALKAN-TECHNO-REMIX.mp3" type="audio/mpeg" />
+        <source src={currentSong} type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     </>

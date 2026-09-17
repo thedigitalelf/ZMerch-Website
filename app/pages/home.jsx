@@ -1,9 +1,18 @@
+import { useEffect } from 'react'
 import { NavLink } from 'react-router'
+
 import { Header } from '../components/header'
 import { Footer } from '../components/footer'
-import { FunMode } from '../components/funMode'
+
+import { useAudio } from '../components/funMode'
 
 export function Home() {
+  const { currentSong, setCurrentSong } = useAudio();
+
+  useEffect(() => {
+    setCurrentSong("/audio/BALKAN-TECHNO-REMIX.mp3");
+  }, [setCurrentSong]);
+
   return (
     <div>
       <div id="nescss">
@@ -64,7 +73,6 @@ export function Home() {
           <img src="/img/construct.gif" style={{width: "100%"}} />
         </div>
       </div>
-      <FunMode />
       <Footer />
     </div>
   );

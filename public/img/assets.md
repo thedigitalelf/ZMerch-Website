@@ -97,3 +97,37 @@ https://web.archive.org/web/20091026234401/http://asia.geocities.com/sbsalon/ind
 
 ## `NOWAVAILABLE.gif`
 https://web.archive.org/web/20090902165608/http://geocities.com/towertelecoms/R310s.htm
+
+## `back-1.gif`
+https://web.archive.org/web/20091026012900/http://geocities.com/nf_it/dartmouth.htm
+
+## `shark-rainbow.gif`
+https://web.archive.org/web/20091027055659/http://hk.geocities.com/sharkchau/sozai/shark.gif
+
+## `shark-dock.gif`
+https://web.archive.org/web/20090831202157/http://geocities.com/likeorange2001/animation10/special10.htm
+
+## `FIN2.gif`
+https://web.archive.org/web/20010723222457/http://www.geocities.com:80/area51/chamber/3049/FIN2.GIF
+
+## `download-spin-orange.gif`
+https://web.archive.org/web/20091027082213/http://hk.geocities.com/chailimchl/dt.htm
+
+## `mp3-download.gif`
+doesnt load, but this is the right link
+https://web.archive.org/web/20091025200254/http://geocities.com/pedram_3206/index1.html
+
+## `download-click2.gif`
+https://web.archive.org/web/20090805015917/http://geocities.com/TimesSquare/7087/no3.htm
+
+## `Download-Blue-Spin.gif`
+https://web.archive.org/web/20091021113551/http://geocities.com/bsa789/Links.html
+
+## `downloads2.gif`
+https://web.archive.org/web/20091027133259/http://geocities.com/cdlinuxtohome/image/link/downloads2.gif
+
+## `download-rainbow.gif`
+https://web.archive.org/web/20091027001440/http://br.geocities.com/aldin_serra/download.html
+
+## `soon.gif`
+https://web.archive.org/web/20060613232621/http://geocities.com:80/the_right_turn2003/soon.gif
