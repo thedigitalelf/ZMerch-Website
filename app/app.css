@@ -362,7 +362,7 @@ img.lazy {
 }
 
 .slimeBar {
-  background-image: url('img/slimebar.gif');
+  background-image: url('/img/slimebar.gif');
   background-repeat: repeat-x;
   margin-bottom: -26px;
 }
