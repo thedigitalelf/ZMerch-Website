@@ -2,8 +2,6 @@
 
 ![](img/yoga-zen-preview.webp)
 
-my text here
-
 ## Add to your avatar:
 
 ### 1. Download 

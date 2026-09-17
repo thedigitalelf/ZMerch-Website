@@ -186,3 +186,6 @@ https://web.archive.org/web/20091027040824/http://uk.geocities.com/yogouchy/anim
 
 ## `humor_banner_download.gif`
 https://web.archive.org/web/20020307130211/http://geocities.com:80/cwolfe28/humor_banner.gif
+
+## `shark-rocket.gif`
+https://web.archive.org/web/20091025150319/http://geocities.com/stg31885/RocketFront.html

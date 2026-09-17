@@ -33,16 +33,20 @@ export function Home() {
           <NavLink to="/asset/zlahaj" className="normal-link-text">
             <div className="flex flex-row">
               <div className="flex-2">
-                <img style={{width: "100%"}} src="/img/shark.gif" />
+                <img className="w-full" src="/img/shark.gif" />
               </div>
               <div className="flex-6">
                 <p className="nes-container-title">ZLAHAJ SHARKi!1</p>
                 <p>omg! be careful u dont get bit! :O!</p>
+                <img className="w-full mt-[-20px]" src="/img/shark-rocket.gif" />
               </div>
             </div>
+            <div className="flex flex-row gap-2">
+              <div className="mb-[-100px] overflow-hidden"></div>
+              <img className="w-75 m-auto" src="/img/shorkkkk-smol.png" />
+            </div>
+            <img className="m-auto h-12 mt-2 mb-[-60px]" src="/img/View-3.gif" />
             <img className="w-full" src="/img/sharkfin.gif" />
-            <img className="w-75 m-auto" src="/img/shorkkkk-smol.png" />
-            <img className="m-auto h-12 mt-2" src="/img/View-3.gif" />
             <img className="w-full" src="/img/jootsharkopt.gif" />
           </NavLink>
         </div>
