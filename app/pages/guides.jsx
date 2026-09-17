@@ -1,6 +1,6 @@
 import Markdown from 'react-markdown'
 
-import zlahaj from '../../public/guides/Zlahaj/guide.md?raw'
+import zlahaj from '../../public/guides/zlahaj/guide.md?raw'
 
 export function Guides({guide}){
   let guideText;
