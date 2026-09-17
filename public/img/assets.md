@@ -189,3 +189,31 @@ https://web.archive.org/web/20020307130211/http://geocities.com:80/cwolfe28/humo
 
 ## `shark-rocket.gif`
 https://web.archive.org/web/20091025150319/http://geocities.com/stg31885/RocketFront.html
+
+## `pillow-whack.gif`
+https://web.archive.org/web/20091027174546/http://br.geocities.com/abertura159/
+
+## `flying-pillow.gif` & `pillow-line.gif`
+https://web.archive.org/web/20090830230745/http://geocities.com/Yosemite/8817/pillowfight.html
+
+## `pillow-head.gif`
+https://web.archive.org/web/20090831183227/http://www.geocities.com/kittiepsototallyrox/menu.html
+
+## `pillow-greeting.gif`
+(note: i removed the first frame because it felt odd? idk, just figured id say)
+https://web.archive.org/web/20091025040850/http://geocities.com/dukeswingfeather/episode2
+
+## `pillow-throw.gif`
+https://web.archive.org/web/20091022231730/http://geocities.com/Heartland/Grove/2324/shame.html
+
+## `pillow-zoom.gif`
+https://web.archive.org/web/20091024051601/http://geocities.com/SoHo/Coffeehouse/8420/bars2.html
+
+## `pillow-popup.gif`
+https://web.archive.org/web/20091027074303/http://hk.geocities.com/cejsa2004/flim.htm
+
+## `pillow-incoming.gif`
+https://web.archive.org/web/20040306125043/http://www.geocities.com:80/firstpresmcallen/pillow4.gif
+
+## `check-it-out.gif`
+https://web.archive.org/web/20090902010520/http://geocities.com/catgirlaed/home.html
