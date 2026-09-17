@@ -1,6 +1,7 @@
 import {
   isRouteErrorResponse,
   Meta,
+  Links,
   Outlet,
   Scripts,
   ScrollRestoration,
@@ -15,6 +16,7 @@ export function Layout({ children }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
+        <Links />
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
       </head>
