@@ -46,7 +46,6 @@ export function Zlahaj(){
             <img className="h-full m-auto" src="/img/shork-2.png" />
             <img className="h-full m-auto" src="/img/shorkk-3.png" />
           </div>
-          <img className="w-40 m-auto mt-6" src="/img/soon.gif" />
           <NavLink className="mt-6" to="/guides/zlahaj/">Read Install Guide</NavLink>
           <a href="#" onClick={() => setTriggerDownload(true)}>
             <div className="flex flex-row h-24 mt-2 items-center">
@@ -58,7 +57,7 @@ export function Zlahaj(){
             </div>
           </a>
           <img className="w-full" src="/img/jootsharkopt.gif" />
-          {triggerDownload && <DownloadModal file="/assets/zlahaj_v1-0-0.zip" />}
+          {triggerDownload && <DownloadModal file="/guides/zlahaj/download/zlahaj_v1-0-0.zip" />}
         </div>
       </div>
     </div>
