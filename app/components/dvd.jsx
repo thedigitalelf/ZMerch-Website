@@ -1,9 +1,29 @@
-import { useEffect, useRef } from "react";
+import { useState, useRef, useEffect, createContext, useContext } from 'react';
+
+const DVDContext = createContext(null);
+export function DVDProvider({ children }) {
+  const [currentDVD, setCurrentDVD] = useState("");
+  return (
+    <DVDContext.Provider value={{ currentDVD, setCurrentDVD }}>
+      {children}
+    </DVDContext.Provider>
+  );
+}
+export const useDVD = () => useContext(DVDContext);
 
 // credit goes to: https://codepen.io/RobotWizard/pen/rRVKVa
 // iz so coool~ i just made it work on react lol
 export function DVDLogo() {
   const dvdRef = useRef(null);
+
+  const { currentDVD } = useDVD();
+
+  useEffect(() => {
+    // mask: url("/img/DVD_logo.svg") no-repeat center / contain;
+    // -webkit-mask: url("/img/DVD_logo.svg") no-repeat center / contain;
+    dvdRef.current.style.mask = `url("${currentDVD}") no-repeat center / contain`
+    dvdRef.current.style['-webkit-mask'] = `url("${currentDVD}") no-repeat center / contain`
+  }, [currentDVD])
 
   useEffect(() => {
     let x = 0,

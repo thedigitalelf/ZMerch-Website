@@ -131,3 +131,49 @@ https://web.archive.org/web/20091027001440/http://br.geocities.com/aldin_serra/d
 
 ## `soon.gif`
 https://web.archive.org/web/20060613232621/http://geocities.com:80/the_right_turn2003/soon.gif
+
+## `Anya_Nami_-_Bread_(Official_Music_Video).mp3`
+https://www.youtube.com/watch?v=J1DAmmROUX8
+
+## `back-3.gif`
+https://web.archive.org/web/20090805143658/http://geocities.com/Wellesley/Veranda/1679/Gib1980.html
+
+## `baganim.gif` & `1bread-back.gif`
+An actually good recipe for making a baguette?!
+https://web.archive.org/web/20090829053447/http://geocities.com/ritashanty/a-form-bag.html
+
+## `a-grade-bread.gif`
+https://web.archive.org/web/20091027042704/http://hk.geocities.com/friendhouse00/new_page_29.htm
+
+## `rainbow-bread.gif`
+https://web.archive.org/web/20090729054957/http://hk.geocities.com/pianoyanyan/Link.htm
+
+## `breadet.gif`
+https://web.archive.org/web/20091021214003/http://geocities.com/mnhscooking/france
+
+## `cbbreadanim.gif`
+https://web.archive.org/web/20091022183559/http://geocities.com/smallf1215/cbbreadlunchbox.html
+
+## `toy-nekopan.gif`
+https://web.archive.org/web/20091026082344/http://geocities.com/ryoukai_chang/IcecreamParlor.html?1024089965845
+
+## `sandwich2.gif`
+https://web.archive.org/web/20091027005205/http://espanol.geocities.com/ronald_3e/productosfloreanfortescue/sandwich2.gif
+
+## `bread.svg`
+https://commons.wikimedia.org/wiki/File:Bread_%28example%29.svg
+
+## `download-com.gif`
+https://web.archive.org/web/20091023052731/http://geocities.com/CapitolHill/Congress/8196/1st_file.htm
+
+## `download-sparkle.gif`
+https://web.archive.org/web/20091027182112/http://in.geocities.com/sravkum/downloads.htm
+
+## `download-bestgames.gif`
+https://web.archive.org/web/20091027110657/http://geocities.com/bestgamezone/
+
+## `download-playnow.gif`
+https://web.archive.org/web/20090830111807/http://geocities.com/casinofortun0101/z1/np1.htm
+
+## `free-download.gif`
+https://web.archive.org/web/20090724030151/http://hk.geocities.com/auyiwo/home7b-1.htm

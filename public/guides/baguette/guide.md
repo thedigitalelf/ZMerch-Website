@@ -1,8 +1,6 @@
 # Zguette
 
-![](img/yoga-zen-preview.webp)
-
-my text here
+![](img/zguette-preview.webp)
 
 ## Add to your avatar:
 
@@ -10,7 +8,7 @@ my text here
 
 Download the Baguette from the official store and follow the installation guide.
 
-https://de.jinxxy.com/Smoresvr/WZyCq
+[https://de.jinxxy.com/Smoresvr/WZyCq](https://de.jinxxy.com/Smoresvr/WZyCq)
 
 ![](img/OfficialStore.png)
 

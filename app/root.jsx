@@ -7,6 +7,7 @@ import {
   ScrollRestoration,
 } from "react-router";
 import { AudioProvider, FunMode } from './components/funMode'
+import { DVDProvider } from './components/dvd'
 
 import { Header } from './components/header'
 import { Footer } from './components/footer'
@@ -27,13 +28,15 @@ export function Layout({ children }) {
       </head>
       <body>
         <AudioProvider>
+          <DVDProvider>
 
-          <div id="nescss">
-            <Header />
-            {children}
-            <FunMode />
-            <Footer />
-          </div>
+            <div id="nescss">
+              <Header />
+              {children}
+              <FunMode />
+              <Footer />
+            </div>
+          </DVDProvider>
         </AudioProvider>
         <ScrollRestoration />
         <Scripts />

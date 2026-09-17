@@ -2,8 +2,8 @@ import { Guides } from '../pages/guides'
 
 export function meta({}) {
   return [
-    { title: "zmerch! owo" },
-    { name: "description", content: ":3 for them silly folkz~" },
+    { title: "INSTALL GUIDE" },
+    { name: "description", content: "can you believe we actually wrote install guides???" },
   ];
 }
 

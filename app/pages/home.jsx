@@ -2,13 +2,16 @@ import { useEffect } from 'react'
 import { NavLink } from 'react-router'
 
 import { useAudio } from '../components/funMode'
+import { useDVD } from '../components/dvd'
 
 export function Home() {
-  const { currentSong, setCurrentSong } = useAudio();
+  const { setCurrentSong } = useAudio();
+  const { setCurrentDVD } = useDVD();
 
   useEffect(() => {
     setCurrentSong("/audio/BALKAN-TECHNO-REMIX.mp3");
-  }, [setCurrentSong]);
+    setCurrentDVD("/img/DVD_logo.svg")
+  }, [setCurrentSong, setCurrentDVD]);
 
   return (
     <div className="body-container" style={{paddingTop: "16px"}}>
