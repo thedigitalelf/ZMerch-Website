@@ -24,9 +24,9 @@ Open the assets folder and drag the Blahaj Quest Prefab into your Avatar Root.
 
 ![](img/firstpicture.png)
 
-Click on the prefab and go down to the mesh. 
+Click on the prefab and go down to the mesh and go to the Inspektor on the right and click on shader
 
-![](img/1.png)
+![](img/1.png) ![](img/0.png)
 
 From there click on the material.
 
@@ -34,7 +34,7 @@ From there click on the material.
 
 Now just right click the material, click on show in explorer and replace it with the edited picture you downloaded before.
 
-![](img/3.png)![](img/4.png)
+![](img/3.png) ![](img/4.png)
 
 If done correctly you should now have this Zlahaj.
 
