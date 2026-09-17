@@ -356,3 +356,7 @@ img.lazy {
   justify-content: center;
   align-items: center;
 }
+
+.nes-container.with-title.is-centered>.title {
+  margin: -2.4rem auto 1rem;
+}
