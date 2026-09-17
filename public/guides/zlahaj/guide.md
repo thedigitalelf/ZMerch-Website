@@ -1,4 +1,4 @@
-# Zrock Yoga Mat
+# Zlahaj Install Guide
 
 ![](img/zlahaj-preview.webp)
 
