@@ -412,3 +412,10 @@ img.lazy {
   color: #000;
   text-decoration: none;
 }
+
+.rainbow-border {
+  border: 5px solid transparent; 
+  border-image-source: url(../img/rainbow.gif);
+  border-image-slice: 1%; 
+  border-image-repeat: stretch; 
+}

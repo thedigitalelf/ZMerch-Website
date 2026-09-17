@@ -10,7 +10,7 @@ export function Home() {
         <Header />
         <div className="body-container" style={{paddingTop: "32px"}}>
           <main className="main-content">
-            <div className="nes-container with-title is-centered">
+            <div className="nes-container with-title is-centered rainbow-border mb-[-48px]">
               <p className="nes-container-title">
                 wow very asset!
               </p>
