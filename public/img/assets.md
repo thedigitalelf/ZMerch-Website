@@ -34,3 +34,6 @@ https://web.archive.org/web/20090902181803/http://geocities.com/vatm11/Virus_Kan
 
 ## `lemmings-footer.gif`
 https://web.archive.org/web/20091024102047/http://geocities.com/golfbooking/Contest.html
+
+## `DVD_logo.svg`
+https://upload.wikimedia.org/wikipedia/commons/9/9b/DVD_logo.svg

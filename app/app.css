@@ -366,3 +366,25 @@ img.lazy {
   background-repeat: repeat-x;
   margin-bottom: -26px;
 }
+
+.dvd-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* Allows clicks to pass through to the website */
+  z-index: 9999; /* Keeps overlay above all site content */
+  overflow: hidden;
+}
+
+.dvd {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 200px;
+  mask: url("/img/DVD_logo.svg") no-repeat center / contain;
+  -webkit-mask: url("/img/DVD_logo.svg") no-repeat center / contain;
+  will-change: transform;
+}

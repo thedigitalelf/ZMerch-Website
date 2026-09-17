@@ -1,9 +1,10 @@
 import { useState, useRef, useEffect } from 'react';
+import { DVDLogo } from './dvd'
 
 export function FunMode () {
   const [showDialog, setShowDialog] = useState(true);
   const [funMode, setFunMode] = useState(false);
-  const [funModeActive, setFunModeActive] = useState(false);
+  const [funModeActive, setFunModeActive] = useState(true);
 
   // let funModeRunning = false;
   function funModeENABLED () {
@@ -17,7 +18,7 @@ export function FunMode () {
     const funBtnTxt = document.getElementById("fun-txt")
     const funToggles = document.querySelectorAll('.fun-active')
 
-    if (funMode && !funModeActive) {
+    if (funMode && funModeActive) {
       // funModeRunning = true;
       funBtn.style.visibility = "visible";
       funBtnTxt.textContent = "FUN ACTIVE!";
@@ -62,6 +63,9 @@ export function FunMode () {
           <img className="fun-active" height="100px" src="/img/cat-dance-emoji.gif" style={{margin: "-98px -16px -8px -38px"}} />
           <span id="fun-txt">fun active</span>
         </button>
+      }
+      {funMode && 
+        <div style={{visibility: funModeActive ? "visible" : "hidden"}}><DVDLogo /></div>
       }
       <audio loop controls style={{visibility: "hidden"}}>
         <source src="/audio/BALKAN-TECHNO-REMIX.mp3" type="audio/mpeg" />
