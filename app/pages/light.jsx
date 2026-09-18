@@ -30,9 +30,9 @@ export function Light(){
 
   return (
     <>
-      <div className={`fullscreen-vid-overlay opacity-10 ${funMode && funModeActive ? "visible" : "hidden"}`}>
+      <div className={`fullscreen-vid-overlay opacity-40 ${funMode && funModeActive ? "visible" : "hidden"}`}>
         <video ref={videoRef} autoPlay muted loop playsinline className="w-full h-full" style={{objectFit: "fill"}}>
-          <source src="/audio/oiia-clip.mp4" type="video/mp4" />
+          <source src="/audio/oiia-stars.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
@@ -44,11 +44,11 @@ export function Light(){
         </div>
         
         <div className="flex flex-row gap-2">
-          <div className="flex-1 nes-container with-title is-centered" style={{borderColor: "#FFF"}}>
+          <div className="flex-1 nes-container with-title is-centered" style={{borderColor: "#FFF", backgroundColor: "#000000C0" /*dim container for legibility*/}}>
             <div className="flex flex-row">
               <div className="flex-2">
-                <img className="w-full" src="/img/rainbow-cat-oiia.gif" />
-                <img className="w-full" src="/img/ravelaserss.gif" />
+                <img className="w-full opacity-80" src="/img/rainbow-cat-oiia.gif" />
+                <img className="w-full opacity-70" src="/img/ravelaserss.gif" />
               </div>
               <div className="flex-6">
                 <p className="nes-container-title" style={{color: "#000"}}>ZLIGHT!</p>
@@ -62,7 +62,7 @@ export function Light(){
                 <p>PLEASE CONTACT ZROCK IF YOU ARE DISSATISFIED! ZROCK HAS NOT AGREED TO HELP YOU! :3c</p>
               </div>
               <div className="flex-2">
-                <img className="w-full" src="/img/rainbow-cat-oiia.gif" />
+                <img className="w-full opacity-80" src="/img/rainbow-cat-oiia.gif" />
                 <img className="w-full" src="/img/pikarave.gif" />
               </div>
             </div>
