@@ -14,7 +14,9 @@ Download the Body Pillow from the official store and follow the installation gui
 
 ### 2. Download the Edit
 
-### DISCLAIMER the Body Pillow Image is AI Generated (I cannot draw)
+### DISCLAIMER the v1 Body Pillow Image is AI Generated (I cannot draw)
+### the v2 Body Pillow Image (default download now) is **NOT** AI Generated.
+
 ![](img/picturefortheedithereIguess)
 
 ### 3. Installation

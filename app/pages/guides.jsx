@@ -12,6 +12,7 @@ export function Guides({guide}){
       break;
     case "baguette":
       guideText = baguette;
+      break;
     case "body-pillow":
       guideText = bodyPillow;
       break;
