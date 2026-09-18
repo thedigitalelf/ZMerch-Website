@@ -44,19 +44,19 @@ export function Bread(){
               <img className="w-full" src="/img/breadet.gif" />
             </div>
           </div>
-          <div className="h-80 flex flex-row mt-4">
-            <img className="h-full m-auto" src="/img/breadd-2.png" />
-            <img className="h-full m-auto" src="/img/breadd-1.png" />
-            <img className="h-full m-auto" src="/img/breadd-3.png" />
+          <div className="flex flex-row mt-4 gap-2">
+            <div className="flex-1"><img className="w-full m-auto" src="/img/breadd-2.png" /></div>
+            <div className="flex-1"><img className="w-full m-auto" src="/img/breadd-1.png" /></div>
+            <div className="flex-1"><img className="w-full m-auto" src="/img/breadd-3.png" /></div>
           </div>
           <NavLink className="mt-6" to="/guides/baguette/">Read Install Guide</NavLink>
           <a href="/guides/baguette/download/baguette_v1-0-0.jpg" download onClick={() => setTriggerDownload(true)}>
-            <div className="flex flex-row h-24 mt-2 items-center">
+            <div className="flex flex-row mt-2 items-center">
               <div className="flex-1"><img className="w-full" src="/img/download-com.gif" /></div>
-              <div className="flex-1"><img className="w-full" src="/img/download-sparkle.gif" /></div>
               <div className="flex-1"><img className="w-full" src="/img/download-bestgames.gif" /></div>
-              <div className="flex-1 overflow-hidden h-24"><img className="w-full h-50 mt-[-50px]" src="/img/download-playnow.gif" /></div>
               <div className="flex-1"><img className="w-full" src="/img/free-download.gif" /></div>
+              <div className="flex-1"><img className="w-full" src="/img/download-sparkle.gif" /></div>
+              <div className="flex-1 overflow-hidden h-24"><img className="w-full h-50 mt-[-50px]" src="/img/download-playnow.gif" /></div>
             </div>
           </a>
           <img className="w-full" src="/img/cbbreadanim.gif" />

@@ -41,10 +41,10 @@ export function Zlahaj(){
               <img className="w-full" src="/img/FIN2.gif" />
             </div>
           </div>
-          <div className="h-80 flex flex-row mt-4">
-            <img className="h-full m-auto" src="/img/shorkkkk-smol.png" />
-            <img className="h-full m-auto" src="/img/shork-2.png" />
-            <img className="h-full m-auto" src="/img/shorkk-3.png" />
+          <div className="flex flex-row mt-4 gap-2">
+            <div className="flex-1"><img className="w-full m-auto" src="/img/shorkkkk-smol.png" /></div>
+            <div className="flex-1"><img className="w-full m-auto" src="/img/shork-2.png" /></div>
+            <div className="flex-1"><img className="w-full m-auto" src="/img/shorkk-3.png" /></div>
           </div>
           <NavLink className="mt-6" to="/guides/zlahaj/">Read Install Guide</NavLink>
           <a href="/guides/zlahaj/download/zlahaj_v1-0-0.zip" download onClick={() => setTriggerDownload(true)}>

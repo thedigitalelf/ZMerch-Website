@@ -43,10 +43,10 @@ export function BodyPillow(){
               {/*<img className="w-full" src="/img/FIN2.gif" />*/}
             </div>
           </div>
-          <div className="h-80 flex flex-row mt-4">
-            <img className="h-full m-auto" src="/img/z-pillow-back.png" />
-            <img className="h-full m-auto" src="/img/z-pillow-laying.png" />
-            <img className="h-full m-auto" style={{transform: "scaleX(-1)"}} src="/img/z-pillow-sitting.png" />
+          <div className="flex flex-row mt-4 gap-2">
+            <div className="flex-1"><img className="w-full m-auto" src="/img/z-pillow-back.png" /></div>
+            <div className="flex-1"><img className="w-full m-auto" src="/img/z-pillow-laying.png" /></div>
+            <div className="flex-1"><img className="w-full m-auto" style={{transform: "scaleX(-1)"}} src="/img/z-pillow-sitting.png" /></div>
           </div>
           <NavLink className="mt-6" to="/guides/body-pillow/">Read Install Guide</NavLink>
           <a href="/guides/body-pillow/download/body-pillow-texture_v2-0-0.png" download onClick={() => setTriggerDownload(true)}>

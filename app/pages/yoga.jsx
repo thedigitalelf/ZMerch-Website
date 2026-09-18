@@ -37,17 +37,17 @@ export function Yoga(){
               <p>finding inner peace can be a challenge. We often seek it out our entire life.</p>
               <p>the powers of zrock running slimevr's yoga events cannot be understated.</p>
               <p>the peace you will feel can be shocking, but it is okay. do not fear. you are safe here.</p>
-              <p>we advise against licking the yoga mats. zrock hasn't had their yearly shower yet this year.</p>
+              <p>we advise against licking the yoga mats. zrock hasn't had their yearly shower yet this year, and the paw taste is.... a bit strong... don't ask how I know okay....?</p>
             </div>
             <div className="flex-2">
               <img className="w-full" src="/img/yoga-chicuela.gif" />
               <img className="w-full" src="/img/yoga-tantra.gif" />
             </div>
           </div>
-          <div className="h-80 flex flex-row mt-4">
-            <img className="h-full m-auto" src="/img/yoga-2.png" />
-            <img className="h-full m-auto" src="/img/yoga-1.png" />
-            <img className="h-full m-auto" src="/img/yoga-3.png" />
+          <div className="flex flex-row mt-4 gap-2">
+            <div className="flex-1"><img className="w-full m-auto" src="/img/yoga-2.png" /></div>
+            <div className="flex-1"><img className="w-full m-auto" src="/img/yoga-1.png" /></div>
+            <div className="flex-1"><img className="w-full m-auto" src="/img/yoga-3.png" /></div>
           </div>
           <NavLink className="mt-6" to="/guides/yoga-mat/">Read Install Guide</NavLink>
           <a href="/guides/yoga-mat/download/yoga-mat-texture_v1-0-0.png" download onClick={() => setTriggerDownload(true)}>
