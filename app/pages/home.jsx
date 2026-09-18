@@ -80,7 +80,6 @@ export function Home() {
               <img className="w-full" style={{transform: "scaleX(-1)"}} src="/img/pillow-throw.gif" />
               <img className="w-full" style={{transform: "scaleX(-1)"}}  src="/img/pillow-zoom.gif" />
               <img className="w-full" style={{transform: "scaleX(-1)"}} src="/img/flying-pillow.gif" />
-              <img className="w-full opacity-40 mt-8" style={{transform: "scaleY(-1)"}} src="/img/pillow-line.gif" />
             </div>
             <div className="flex flex-row">
               <div className="flex-6">
@@ -91,6 +90,7 @@ export function Home() {
             </div>
             <img className="w-full ml-[-75px]" src="/img/pillowww-1.png" />
             <img className="h-20 mt-[-150px] ml-[65%] rotate-210 absolute" src="/img/check-it-out.gif" />
+            <img className="w-full opacity-40" style={{transform: "scaleY(-1)"}} src="/img/pillow-line.gif" />
           </NavLink>
         </div>
         <div className="flex-1 nes-container with-title is-centered">

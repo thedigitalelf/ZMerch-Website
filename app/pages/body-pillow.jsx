@@ -62,6 +62,13 @@ export function BodyPillow(){
               <div className=""><img className="h-8" src="/img/download-banner-purple.gif" /></div>
             </div>
           </a>
+          <div className="flex flex-row">
+            <div className="flex-1"><img className="w-full" src="/img/pillow-popup.gif" /></div>
+            <div className="flex-1"><img className="w-full" src="/img/pillow-popup.gif" /></div>
+            <div className="flex-1"><img className="w-full" src="/img/pillow-popup.gif" /></div>
+            <div className="flex-1"><img className="w-full" src="/img/pillow-popup.gif" /></div>
+            <div className="flex-1"><img className="w-full" src="/img/pillow-popup.gif" /></div>
+          </div>
           <div className="pb-30">
             <img className="w-full absolute" src="/img/pillow-zoom.gif" />
             <img className="w-full absolute" src="/img/pillow-throw.gif" />

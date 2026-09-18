@@ -9,8 +9,9 @@ export function DownloadModal({file}){
           <div className="nes-dialog is-dark is-rounded">
             <form method="dialog">
               <p className="title text-3xl">tank u for download!</p>
-              <p>the assets are free, so plz donate some money to one of these great organizations!!!</p>
-              <p className="title text-2xl pt-8">save a life today!</p>
+              <p>the assets are completely free, and we hope you like em.</p>
+              <p className="text-xl">!!!plz donate some money to one of these great organizations!!!</p>
+              <p className="text-2xl pt-4">save a life today!</p>
               <menu className="dialog-menu">
                 <button className="nes-btn is-rainbow is-rainbow-trans" onClick={() => {
                   window.open("https://give.translifeline.org/give/461718#!/donation/checkout", '_blank')
