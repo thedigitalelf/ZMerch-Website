@@ -50,7 +50,7 @@ export function Bread(){
             <img className="h-full m-auto" src="/img/breadd-3.png" />
           </div>
           <NavLink className="mt-6" to="/guides/baguette/">Read Install Guide</NavLink>
-          <a href="#" onClick={() => setTriggerDownload(true)}>
+          <a href="/guides/baguette/download/baguette_v1-0-0.jpg" download onClick={() => setTriggerDownload(true)}>
             <div className="flex flex-row h-24 mt-2 items-center">
               <div className="flex-1"><img className="w-full" src="/img/download-com.gif" /></div>
               <div className="flex-1"><img className="w-full" src="/img/download-sparkle.gif" /></div>
@@ -60,7 +60,7 @@ export function Bread(){
             </div>
           </a>
           <img className="w-full" src="/img/cbbreadanim.gif" />
-          {triggerDownload && <DownloadModal file="/guides/baguette/download/baguette_v1-0-0.jpg" />}
+          {triggerDownload && <DownloadModal />}
         </div>
       </div>
     </div>

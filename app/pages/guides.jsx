@@ -2,6 +2,7 @@ import Markdown from 'react-markdown'
 
 import zlahaj from '../../public/guides/zlahaj/guide.md?raw'
 import baguette from '../../public/guides/baguette/guide.md?raw'
+import bodyPillow from '../../public/guides/body-pillow/guide.md?raw'
 
 export function Guides({guide}){
   let guideText;
@@ -11,6 +12,8 @@ export function Guides({guide}){
       break;
     case "baguette":
       guideText = baguette;
+    case "body-pillow":
+      guideText = bodyPillow;
       break;
     default:
       guideText = "## 404 guide not found?"

@@ -5,4 +5,5 @@ export default [
   route('guides/:guideName', 'routes/guides.jsx'),
   route('/asset/zlahaj', "routes/asset-zlahaj.jsx"),
   route('/asset/bread', "routes/bread.jsx"),
+  route('/asset/body-pillow', "routes/body-pillow.jsx"),
 ];

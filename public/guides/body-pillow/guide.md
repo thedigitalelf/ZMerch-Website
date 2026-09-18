@@ -1,8 +1,6 @@
 # Zrock Body Pillow
 
-![](img/yoga-zen-preview.webp)
-
-my text here
+![](img/body-pillow-preview.webp)
 
 ## Add to your avatar:
 
@@ -10,7 +8,7 @@ my text here
 
 Download the Body Pillow from the official store and follow the installation guide.
 
-https://de.jinxxy.com/DingleDangleDof/iJ1Bk
+[https://de.jinxxy.com/DingleDangleDof/iJ1Bk](https://de.jinxxy.com/DingleDangleDof/iJ1Bk)
 
 ![](img/OfficialStore.png)
 

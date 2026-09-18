@@ -217,3 +217,17 @@ https://web.archive.org/web/20040306125043/http://www.geocities.com:80/firstpres
 
 ## `check-it-out.gif`
 https://web.archive.org/web/20090902010520/http://geocities.com/catgirlaed/home.html
+
+## `download-me.gif`
+https://web.archive.org/web/20091027135718/http://geocities.com/FabioPeloso/images/download.gif
+
+## `download-mcafee.gif`
+https://web.archive.org/web/20010711180236/http://www.geocities.com:80/WallStreet/7697/DLMCAFEERED.GIF
+
+## `download-floppy-*.gif` &  `download-banner-*.gif`
+10 of em, various colors
+https://web.archive.org/web/20090729000119/http://hk.geocities.com/myheidiland/skyhouse/download.htm
+
+## `Nymano_ft_JK_the_Sage_-_Sleepover.mp3`
+the song that plays in popcorn palace when you load in lmao
+https://www.youtube.com/watch?v=lmA7VPPwBCs

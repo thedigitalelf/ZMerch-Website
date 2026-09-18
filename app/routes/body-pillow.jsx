@@ -2,8 +2,8 @@ import { BodyPillow } from "../pages/body-pillow";
 
 export function meta({}) {
   return [
-    { title: "BAGUETTE!" },
-    { name: "description", content: "isnt he so breadable?" },
+    { title: "pillllowwwwww!" },
+    { name: "description", content: "OMG?!? YUS!" },
   ];
 }
 

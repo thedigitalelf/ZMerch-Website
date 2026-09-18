@@ -2,21 +2,6 @@ import { useState, useEffect } from 'react'
 
 export function DownloadModal({file}){
   const [modalOpen, setModalOpen] = useState(true)
-  const [hasDownloaded, setHasDownloaded] = useState(false)
-  function download(url) {
-    const a = document.createElement('a')
-    a.href = url
-    a.download = url.split('/').pop()
-    document.body.appendChild(a)
-    a.click()
-    document.body.removeChild(a)
-  }
-  useEffect(() => {
-    if (!hasDownloaded){
-      download(file)
-      setHasDownloaded(true)
-    }
-  }, [hasDownloaded])
   return (
     <>
       {modalOpen &&
