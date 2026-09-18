@@ -80,7 +80,10 @@ header.sticky .nav-brand p {
 footer {
   text-align: center;
   margin-bottom: 2rem;
-  color: #3e3e3e;
+}
+footer p {
+  color: #fff;
+  mix-blend-mode: difference;
 }
 footer a {
   color: #333;

@@ -40,11 +40,13 @@ export function FunMode () {
     const funBtnTxt = document.getElementById("fun-txt")
     const funToggles = document.querySelectorAll('.fun-active')
 
+
+    audio.volume = 0.02;
+
     if (funMode && funModeActive) {
       // funModeRunning = true;
       funBtn.style.visibility = "visible";
       funBtnTxt.textContent = "FUN ACTIVE!";
-      audio.volume = 0.05;
       audio.play();
 
       funToggles.forEach(element => {
