@@ -25,6 +25,8 @@ export function Layout({ children }) {
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
         <title>zmerch! owo</title>
+        <meta property="og:title" content="extremely unofficial zrock memes!" />
+        <meta property="og:description" content="amazing meme asset retextures at amazingly free prices! GRAB A PIECE OF HISTORY TODAY! owo uwu awa awa 67 u lost the game" />
       </head>
       <body>
         <AudioProvider>
