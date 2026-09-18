@@ -113,6 +113,16 @@ export function DVDLogo() {
       }
       x += dirX * speed;
       y += dirY * speed;
+
+      // prevent dvd from getting caught at the bottom/side (resized browser, or changed img height while overlapped)
+      if (y + dvdHeight > screenHeight){
+        // console.log("y would have stuck")
+        y = screenHeight - dvdHeight
+      }
+      if (x + dvdWidth > screenWidth){
+        // console.log("x would have stuck")
+        x = screenWidth - dvdWidth
+      }
       // use translate instead of dead offsets cuz we want to do it based on the inner width/height :p - puppy sky
       dvd.style.transform = `translate3d(${x}px, ${y}px, 0)`;
       requestAnimationFrame(animate);
