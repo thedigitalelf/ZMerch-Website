@@ -4,8 +4,8 @@ export function Footer(){
       <img src="/img/lemmings-footer.gif" style={{width:"100%"}} />
       <br />
       <footer>
-        <p>assets by: brain (thedigitalelf)</p>
         <p>website by: puppy sky (ostlerdev)</p>
+        <p>textures/materials by: brain (thedigitalelf)</p>
         <div className="flex flex-row max-h-16 gap-8 justify-center-safe items-center">
           <div><img style={{width:"auto"}} src="/img/aniclawflag.gif" /></div>
           <div><img style={{width:"auto"}} src="/img/rainbow-sparkle.gif" /></div>
