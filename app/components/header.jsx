@@ -8,7 +8,7 @@ export function Header(){
           <NavLink to="/">
             <div className="flex flex-row items-center">
               <img src="/img/logo.png" className="md:h-[80px] h-[40px]" />
-              <span className="md:text-3xl text-xl md:mx-[16px]">zmerch.store</span>
+              <span className="md:text-3xl text-xl md:mx-[16px]">zmerch.meme</span>
               <img src="/img/new.gif" className="md:h-[80px] h-[30px]" />
             </div>
           </NavLink> 
