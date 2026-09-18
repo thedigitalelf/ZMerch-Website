@@ -85,7 +85,7 @@ export function Home() {
               <div className="flex-6">
                 <p className="nes-container-title">!1! SNUGLE TIME !1!</p>
                 <p>turns out z is a huge snuggler!</p>
-                <p>get your zrock approved body pillow today!</p>
+                <p>get your unofficially approved zrock body pillow today!</p>
               </div>
             </div>
             <img className="w-full ml-[-75px]" src="/img/pillowww-1.png" />
@@ -103,7 +103,7 @@ export function Home() {
               <div className="flex-6">
                 <p className="nes-container-title">~ yoga mat ~</p>
                 <p>get the limited edition zrock yoga mat today!!</p>
-                <p>tastes like z's paws!</p>
+                <p>makes you as zen as zrock!</p>
               </div>
               <div className="flex-1">
                 <img className="w-full" src="/img/yoga-word-anim.gif" />

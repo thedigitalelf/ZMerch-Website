@@ -37,7 +37,7 @@ export function Yoga(){
               <p>finding inner peace can be a challenge. We often seek it out our entire life.</p>
               <p>the powers of zrock running slimevr's yoga events cannot be understated.</p>
               <p>the peace you will feel can be shocking, but it is okay. do not fear. you are safe here.</p>
-              <p>we advise against licking the yoga mats. zrock hasn't had their yearly shower yet, and the paw taste is.... a bit strong... don't ask how I know okay....?</p>
+              <p>we advise against licking the yoga mats. we work hard to keep them clean, but you have no idea where they have been.</p>
             </div>
             <div className="flex-2">
               <img className="w-full" src="/img/yoga-chicuela.gif" />
