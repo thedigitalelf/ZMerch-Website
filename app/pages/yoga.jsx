@@ -15,7 +15,7 @@ export function Yoga(){
 
   useEffect(() => {
     setCurrentSong("/audio/yoga-remix.mp3")
-    setCurrentDVD("/img/Peace_sign.svg")
+    setCurrentDVD("/img/peacelogo-1.gif")
   }, [setCurrentSong, setCurrentDVD])
 
   return (

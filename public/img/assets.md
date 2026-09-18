@@ -273,6 +273,9 @@ https://web.archive.org/web/20090805195711/http://geocities.com/ain_tempus/Downl
 ## `peacechance.gif`
 https://web.archive.org/web/20091021112414/http://geocities.com/becools2004/author.htm
 
+## `peacelogo-1.gif`
+https://web.archive.org/web/20091026223101/http://www.geocities.com/pellftw/woodstock.html
+
 ## `rainbow-bar3.gif` & `peace-fingers.gif`
 https://web.archive.org/web/20091027091400/http://www.geocities.com/dykealways/tosteal.html
 
