@@ -14,6 +14,10 @@ Download the Body Pillow from the official store and follow the installation gui
 
 ### 2. Download the Edit
 
+### DISCLAIMER the original v1 Body Pillow Image was AI Generated and is NO LONGER AVAILABLE.
+
+### The NEW v2 Body Pillow Image was created from pictures of ZRock (f\*\*k ai)
+
 ![](img/picturefortheedithereIguess)
 
 ### 3. Installation

@@ -40,7 +40,6 @@ export function BodyPillow(){
             <div className="flex-2">
               <img className="w-full" style={{transform: "scaleY(-1)"}} src="/img/pillow-greeting.gif" />
               <img className="w-full" src="/img/pillow-whack.gif" />
-              {/*<img className="w-full" src="/img/FIN2.gif" />*/}
             </div>
           </div>
           <div className="flex flex-row mt-4 gap-2">
@@ -62,6 +61,7 @@ export function BodyPillow(){
               <div className=""><img className="h-8" src="/img/download-banner-purple.gif" /></div>
             </div>
           </a>
+          <p>now with 100% less ai! (f**k ai)</p>
           <div className="flex flex-row">
             <div className="flex-1"><img className="w-full" src="/img/pillow-popup.gif" /></div>
             <div className="flex-1"><img className="w-full" src="/img/pillow-popup.gif" /></div>
