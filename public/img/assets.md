@@ -18,6 +18,8 @@ https://nostalgic-css.github.io/NES.css
 
 ## `rainbow.gif`
 https://github.com/divshot/geo-bootstrap/blob/master/img/rainbow.gif
+OMG! FOUND THE REAL ONE! 
+https://web.archive.org/web/20091027091400/http://www.geocities.com/dykealways/tosteal.html
 
 ## `cat-dance-emoji.gif`
 unknown original source for the transparent version or who made the gif, but the original is from here:
@@ -231,3 +233,45 @@ https://web.archive.org/web/20090729000119/http://hk.geocities.com/myheidiland/s
 ## `Nymano_ft_JK_the_Sage_-_Sleepover.mp3`
 the song that plays in popcorn palace when you load in lmao
 https://www.youtube.com/watch?v=lmA7VPPwBCs
+
+## `yoga-poses.gif`
+https://web.archive.org/web/20091026235616/http://it.geocities.com/asbodyart/
+
+## `yoga-word-anim.gif`
+https://web.archive.org/web/20030411223828/http://www.geocities.com:80/Athens/Forum/2731/yogaanim.gif
+
+## `yoga-tantra.gif`
+https://web.archive.org/web/20090725033208/http://geocities.com/aghoranagasatyam/
+
+## `yoga-body.gif`
+https://web.archive.org/web/20091022175704/http://geocities.com/seshagirirao_vandana/Yoga/AnjaneyaAsana.htm
+
+## `yoga-chicuela.gif`
+https://web.archive.org/web/20091027114755/http://geocities.com/acarbajal69/chicuela.gif
+
+## `yoga-stretch.gif`
+https://web.archive.org/web/20091027085814/http://hk.geocities.com/huilaiyiu/12.htm
+
+## `yoga-remix.mp3`
+https://www.youtube.com/watch?v=Yu8hSokNvWM
+
+## `peace-rainbow-flash.gif`
+https://web.archive.org/web/20090804125739/http://geocities.com/SunsetStrip/Plaza/2769/feedback.htm
+
+## `peace-acid.gif`
+https://web.archive.org/web/20090902155055/http://geocities.com/thehippie777/Index.html
+
+## `peace-text-rainbow.gif`
+https://web.archive.org/web/20091027064309/http://geocities.com/zeppelin_016/
+
+## `peace-flashing-hand.gif`
+https://web.archive.org/web/20091026223836/http://geocities.com/silly_sierra_lyn/
+
+## `download-atoms.gif`
+https://web.archive.org/web/20090805195711/http://geocities.com/ain_tempus/Download.html
+
+## `peacechance.gif`
+https://web.archive.org/web/20091021112414/http://geocities.com/becools2004/author.htm
+
+## `rainbow-bar3.gif` & `peace-fingers.gif`
+https://web.archive.org/web/20091027091400/http://www.geocities.com/dykealways/tosteal.html

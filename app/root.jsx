@@ -38,7 +38,7 @@ export function Layout({ children }) {
             </div>
           </DVDProvider>
         </AudioProvider>
-        <ScrollRestoration />
+        <ScrollRestoration getKey={() => Math.random().toString(36)} /* never remember scroll, always scroll back to top, just a nitpick by this pup */ />
         <Scripts />
       </body>
     </html>

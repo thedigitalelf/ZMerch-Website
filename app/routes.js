@@ -6,4 +6,5 @@ export default [
   route('/asset/zlahaj', "routes/asset-zlahaj.jsx"),
   route('/asset/bread', "routes/bread.jsx"),
   route('/asset/body-pillow', "routes/body-pillow.jsx"),
+  route('/asset/yoga-mat', "routes/yoga.jsx"),
 ];

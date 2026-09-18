@@ -2,15 +2,13 @@
 
 ![](img/yoga-zen-preview.webp)
 
-my text here
-
 ## Add to your avatar:
 
 ### 1. Download 
 
 Download the yoga mat from the official store and follow the installation guide.
 
-https://rubixcreates.gumroad.com/l/YogaMat?layout=profile&recommended_by=library
+[https://rubixcreates.gumroad.com/l/YogaMat?layout=profile&recommended_by=library](https://rubixcreates.gumroad.com/l/YogaMat?layout=profile&recommended_by=library)
 
 ![](img/OfficialStore.png)
 

@@ -94,22 +94,24 @@ export function Home() {
           </NavLink>
         </div>
         <div className="flex-1 nes-container with-title is-centered">
-          <NavLink to="/asset/bread" className="normal-link-text">
+          <NavLink to="/asset/yoga-mat" className="normal-link-text">
             <div className="flex flex-row">
               <div className="flex-1">
-                {/*<img style={{width: "100%"}} src="/img/toast-new.gif" />*/}
+                <img className="w-full" src="/img/yoga-tantra.gif" />
+                <img className="w-full" src="/img/yoga-word-anim.gif" />
               </div>
               <div className="flex-6">
-                <p className="nes-container-title">placeholder</p>
-                <p>woah placeholder text</p>
+                <p className="nes-container-title">~ yoga mat ~</p>
+                <p>get the limited edition zrock yoga mat today!!</p>
+                <p>tastes like z's paws!</p>
               </div>
               <div className="flex-1">
-                {/*<img src="/img/toast.gif" style={{width: "100%"}} />*/}
+                <img className="w-full" src="/img/yoga-word-anim.gif" />
+                <img className="w-full" src="/img/yoga-tantra.gif" />
               </div>
             </div>
-            {/*<img className="w-full" src="/img/breadd-256pixels.png" />*/}
-            {/*<img className="inline m-auto h-20 mt-2" src="/img/ch_to_view.gif" />*/}
-            {/*<img className="inline" src="/img/wow1-1.gif" />*/}
+            <img className="w-full" src="/img/yoga-home.png" />
+            <img className="absolute mt-[-100px]" src="/img/peace-text-rainbow.gif" />
           </NavLink>
         </div>
       </div>
