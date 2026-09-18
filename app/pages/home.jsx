@@ -10,7 +10,7 @@ export function Home() {
 
   useEffect(() => {
     setCurrentSong("/audio/BALKAN-TECHNO-REMIX.mp3");
-    setCurrentDVD("/img/DVD_logo.svg")
+    setCurrentDVD(["/img/DVD_logo.svg", "250px", "108px"])
   }, [setCurrentSong, setCurrentDVD]);
 
   return (

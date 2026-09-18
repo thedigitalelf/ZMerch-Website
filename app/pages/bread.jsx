@@ -15,7 +15,7 @@ export function Bread(){
 
   useEffect(() => {
     setCurrentSong("/audio/Anya_Nami_-_Bread_(Official_Music_Video).mp3")
-    setCurrentDVD("/img/bread.svg")
+    setCurrentDVD(["/img/bread.svg", "200px", "190px"])
   }, [setCurrentSong, setCurrentDVD])
 
   return (

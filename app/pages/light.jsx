@@ -16,7 +16,7 @@ export function Light(){
 
   useEffect(() => {
     setCurrentSong("/audio/oiia.mp3")
-    setCurrentDVD("/img/rainbow-cat-oiia.gif")
+    setCurrentDVD(["/img/oiia-mask-optimized.gif", "205px", "243px"])
   }, [setCurrentSong, setCurrentDVD])
 
   useEffect(() => {

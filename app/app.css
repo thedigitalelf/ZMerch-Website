@@ -354,15 +354,13 @@ img.lazy {
 }
 
 .modal-overlay {
-  position: fixed;       /* Stays in place relative to the viewport */
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;           /* Covers the entire screen width */
-  height: 100%;          /* Covers the entire screen height */
-  background-color: rgba(0, 0, 0, 0.5); /* Dimmed background */
-  z-index: 9999;         /* High index ensures it sits on top of other content */
-  
-  /* Centering the modal box inside */
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -395,8 +393,8 @@ img.lazy {
   left: 0;
   width: 100vw;
   height: 100vh;
-  pointer-events: none; /* Allows clicks to pass through to the website */
-  z-index: 9999; /* Keeps overlay above all site content */
+  pointer-events: none;
+  z-index: 9999;
   overflow: hidden;
 }
 
@@ -404,6 +402,7 @@ img.lazy {
   position: absolute;
   top: 0;
   left: 0;
+  /* now controlled dynamically in dvd.jsx component thru context :p */
   height: 100px;
   width: 200px;
   mask: url("/img/DVD_logo.svg") no-repeat center / contain;
@@ -433,8 +432,8 @@ img.lazy {
   left: 0;
   width: 100vw;
   height: 100vh;
-  pointer-events: none; /* Allows clicks to pass through to the website */
-  z-index: -9998; /* Keeps overlay above all site content */
+  pointer-events: none;
+  z-index: -9998;
   overflow: hidden;
 }
 
@@ -444,8 +443,8 @@ img.lazy {
   left: 0;
   width: 100vw;
   height: 100vh;
-  pointer-events: none; /* Allows clicks to pass through to the website */
-  z-index: -9999; /* Keeps underlay behind all site content */
+  pointer-events: none;
+  z-index: -9999;
   overflow: hidden;
   background-color: #000000aa;
 }

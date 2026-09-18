@@ -2,7 +2,7 @@ import { useState, useRef, useEffect, createContext, useContext } from 'react';
 
 const DVDContext = createContext(null);
 export function DVDProvider({ children }) {
-  const [currentDVD, setCurrentDVD] = useState("");
+  const [currentDVD, setCurrentDVD] = useState(["", "200px", "100px"]);
   return (
     <DVDContext.Provider value={{ currentDVD, setCurrentDVD }}>
       {children}
@@ -19,11 +19,16 @@ export function DVDLogo() {
   const { currentDVD } = useDVD();
 
   useEffect(() => {
+    let dvd = dvdRef.current
+    if (!dvd) return
     // mask: url("/img/DVD_logo.svg") no-repeat center / contain;
     // -webkit-mask: url("/img/DVD_logo.svg") no-repeat center / contain;
-    dvdRef.current.style.mask = `url("${currentDVD}") no-repeat center / contain`
-    dvdRef.current.style['-webkit-mask'] = `url("${currentDVD}") no-repeat center / contain`
-  }, [currentDVD])
+    dvd.style.mask = `url("${currentDVD[0]}") no-repeat center / contain`
+    dvd.style['-webkit-mask'] = `url("${currentDVD[0]}") no-repeat center / contain`
+    // let control width/height for more accurate corner bouncing, make sure to add "px" when setting width/height x_x
+    dvd.style.width = currentDVD[1]
+    dvd.style.height = currentDVD[2]
+  }, [dvdRef, currentDVD])
 
   useEffect(() => {
     let x = 0,
@@ -42,8 +47,6 @@ export function DVDLogo() {
     let dvd = dvdRef.current;
     dvd.style.backgroundColor = pallete[0];
 
-    const dvdWidth = dvd.clientWidth;
-    const dvdHeight = dvd.clientHeight;
 
     function getNewRandomColor() {
       const currentPallete = [...pallete]
@@ -56,6 +59,9 @@ export function DVDLogo() {
     function animate() {
       const screenWidth = window.innerWidth;
       const screenHeight = window.innerHeight;
+      // calc width/height each time cuz we are changing dimensions on fly wit new images
+      const dvdWidth = dvd.clientWidth;
+      const dvdHeight = dvd.clientHeight;
 
       if (y + dvdHeight >= screenHeight || y < 0) {
         dirY *= -1;
