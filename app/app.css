@@ -431,7 +431,7 @@ img.lazy {
   width: 100vw;
   height: 100vh;
   pointer-events: none; /* Allows clicks to pass through to the website */
-  z-index: 9999; /* Keeps overlay above all site content */
+  z-index: -9998; /* Keeps overlay above all site content */
   overflow: hidden;
 }
 
