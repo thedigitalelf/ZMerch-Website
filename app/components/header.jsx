@@ -3,7 +3,7 @@ import { NavLink } from 'react-router'
 export function Header(){
 	return (
 		<header>
-      <div className="flex md:flex-row flex-col md:gap-10 md:mx-32 mx-8 mt-4">
+      <div className="max-w-[1400px] flex md:flex-row flex-col md:gap-10 md:mx-32 md:mx-auto mx-8 mt-4">
         <div className="flex-col grow nav-brand">
           <NavLink to="/">
             <div className="flex flex-row items-center">
