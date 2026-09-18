@@ -4,8 +4,10 @@ import { DVDLogo } from './dvd'
 const AudioContext = createContext(null);
 export function AudioProvider({ children }) {
   const [currentSong, setCurrentSong] = useState("/audio/BALKAN-TECHNO-REMIX.mp3");
+  const [funMode, setFunMode] = useState(false);
+  const [funModeActive, setFunModeActive] = useState(true);
   return (
-    <AudioContext.Provider value={{ currentSong, setCurrentSong }}>
+    <AudioContext.Provider value={{ currentSong, setCurrentSong, funMode, setFunMode, funModeActive, setFunModeActive }}>
       {children}
     </AudioContext.Provider>
   );
@@ -14,10 +16,8 @@ export const useAudio = () => useContext(AudioContext);
 
 export function FunMode () {
   const [showDialog, setShowDialog] = useState(true);
-  const [funMode, setFunMode] = useState(false);
-  const [funModeActive, setFunModeActive] = useState(true);
 
-  const { currentSong } = useAudio();
+  const { currentSong, funMode, setFunMode, funModeActive, setFunModeActive } = useAudio();
 
   useEffect(() => {
     const audio = document.querySelector("audio");

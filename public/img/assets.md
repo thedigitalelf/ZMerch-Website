@@ -275,3 +275,57 @@ https://web.archive.org/web/20091021112414/http://geocities.com/becools2004/auth
 
 ## `rainbow-bar3.gif` & `peace-fingers.gif`
 https://web.archive.org/web/20091027091400/http://www.geocities.com/dykealways/tosteal.html
+
+## `light-scuba.gif`
+https://web.archive.org/web/20091027103403/http://es.geocities.com/kardc2/gif_acuaticos.html
+
+## `lightbulb.gif`
+https://web.archive.org/web/20091026212646/http://br.geocities.com/hisashiimafuku/bulb.gif
+
+## `flightlight-2.gif`
+https://web.archive.org/web/20091027000805/http://mx.geocities.com/dr_salazar/
+
+## `light-spotlight-1.gif` & `light-spotlight-2.gif`
+https://web.archive.org/web/20091024114324/http://geocities.com/epdancers/tryout.html
+
+## `light-gun.gif`
+https://web.archive.org/web/20010624011754/http://www.geocities.com:80/Area51/Dunes/6804/laserline.gif
+
+## `coming-soon-more.gif`
+https://web.archive.org/web/20091021085642/http://geocities.com/TheTropics/Beach/4448/lexington.html
+
+## `oiia.mp3` & `oiia.mp4`
+https://www.youtube.com/watch?v=IxX_QHay02M
+
+## `rainbow-cat-oiia.gif`
+https://giphy.com/stickers/wandwmusic-wandw-spinning-cat-oiia-XIjw2n4kUXxuqDn7dN
+
+## `downloaditnow2.gif`
+https://web.archive.org/web/20091026062435/http://geocities.com/lemarcgagnon/rent.htm
+
+## `download-rainbow-floppy.gif`
+https://web.archive.org/web/20091026000711/http://geocities.com/medunkt2002/site_papers/adamant.html
+
+## `cool1.gif`
+https://web.archive.org/web/20091027123446/http://geocities.com/andamanweb/download/check24.htm
+
+## `freedownload-explode.gif`
+https://web.archive.org/web/20090723080610/http://sg.geocities.com/jovanpetronic2002/
+
+## `download-yellow-scroll.gif`
+https://web.archive.org/web/20090724111638/http://ar.geocities.com/jpgr252001/entretenimientos
+
+## `download_red-flash.gif`
+https://web.archive.org/web/20091027042829/http://es.geocities.com/xxtiempomuertoxx/video.htm
+
+## `pikachuraver.gif`
+https://web.archive.org/web/20090730040148/http://geocities.com/Athens/Acropolis/7132/raverelated/raveculture.html????????.html
+
+## `pikarave.gif`
+https://web.archive.org/web/20091024060901/http://geocities.com/davidsehoon/
+
+## `ravebar.gif`
+https://web.archive.org/web/20090831031656/http://geocities.com/babieguh05/friends
+
+## `ravelaserss.gif`
+https://web.archive.org/web/20091022201120/http://geocities.com/the_true_ya_yupper/meh.html

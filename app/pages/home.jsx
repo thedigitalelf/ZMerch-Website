@@ -115,6 +115,34 @@ export function Home() {
           </NavLink>
         </div>
       </div>
+
+      <div className="flex md:flex-row flex-col gap-2">
+        <div className="flex-1"></div>
+        <div className="flex-2 nes-container with-title is-centered">
+          <NavLink to="/asset/flashlight" className="normal-link-text">
+            <div className="flex flex-row">
+              <div className="flex-1">
+                <img className="w-full" src="/img/light-spotlight-1.gif" />
+                <img className="w-full" style={{transform: "scaleX(-1)"}} src="/img/light-gun.gif" />
+              </div>
+              <div className="flex-6">
+                <p className="nes-container-title">zrock flashlight</p>
+                <p>find your way through your darkest moments...</p>
+                <p>WITH THE ALL NEW ZROCK FLASHLIGHT!!!</p>
+              </div>
+              <div className="flex-1">
+                <img className="w-full" src="/img/light-spotlight-2.gif" />
+                <img className="w-full" src="/img/light-gun.gif" />
+              </div>
+            </div>
+            <img className="w-full" src="/img/light-home.png" />
+            <img className="absolute right-[-30px] mt-[-75px]" src="/img/light-scuba.gif" />
+            <img className="absolute mt-[-100px] left-[40%]" src="/img/view-rainbow.gif" />
+          </NavLink>
+        </div>
+        <div className="flex-1"></div>
+      </div>
+      <img src="/img/coming-soon-more.gif" style={{width: "100%"}} />
       <img src="/img/construct.gif" style={{width: "100%"}} />
     </div>
   );

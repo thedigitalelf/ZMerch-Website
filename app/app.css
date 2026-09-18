@@ -80,6 +80,7 @@ header.sticky .nav-brand p {
 footer {
   text-align: center;
   margin-bottom: 2rem;
+  color: #3e3e3e;
 }
 footer a {
   color: #333;
@@ -421,4 +422,27 @@ img.lazy {
   border-image-source: url(/img/rainbow.gif);
   border-image-slice: 1%; 
   border-image-repeat: stretch; 
+}
+
+.fullscreen-vid-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* Allows clicks to pass through to the website */
+  z-index: 9999; /* Keeps overlay above all site content */
+  overflow: hidden;
+}
+
+.light-page-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* Allows clicks to pass through to the website */
+  z-index: -9999; /* Keeps underlay behind all site content */
+  overflow: hidden;
+  background-color: #000000aa;
 }

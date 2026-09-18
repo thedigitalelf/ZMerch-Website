@@ -4,6 +4,7 @@ import zlahaj from '../../public/guides/zlahaj/guide.md?raw'
 import baguette from '../../public/guides/baguette/guide.md?raw'
 import bodyPillow from '../../public/guides/body-pillow/guide.md?raw'
 import yoga from '../../public/guides/yoga-mat/guide.md?raw'
+import flashlight from '../../public/guides/flashlight/guide.md?raw'
 
 export function Guides({guide}){
   let guideText;
@@ -20,6 +21,9 @@ export function Guides({guide}){
     case "yoga-mat":
       guideText = yoga;
       break;
+    case "flashlight":
+      guideText = flashlight;
+      break;
     default:
       guideText = "## 404 guide not found?"
       break;
@@ -30,6 +34,7 @@ export function Guides({guide}){
       <Markdown>
         {guideText}
       </Markdown>
+      <div className="flex justify-center"><a className="shrink" href="#" onClick={() => history.back()}><img src="/img/back-3.gif" /></a></div>
     </div>
   )
 }
