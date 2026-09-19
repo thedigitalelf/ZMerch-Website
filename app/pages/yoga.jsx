@@ -14,7 +14,7 @@ export function Yoga(){
   const [triggerDownload, setTriggerDownload] = useState(false);
 
   useEffect(() => {
-    setCurrentSong("/audio/yoga-remix.mp3")
+    setCurrentSong("/audio/i-like-to-movie-it_trim-louder.mp3")
     setCurrentDVD(["/img/peacelogo-1.gif", "150px", "150px"])
   }, [setCurrentSong, setCurrentDVD])
 

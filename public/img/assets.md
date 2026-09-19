@@ -332,3 +332,6 @@ https://web.archive.org/web/20090831031656/http://geocities.com/babieguh05/frien
 
 ## `ravelaserss.gif`
 https://web.archive.org/web/20091022201120/http://geocities.com/the_true_ya_yupper/meh.html
+
+## `i-like-to-move-it.mp3`
+https://www.youtube.com/watch?v=hdcTmpvDO0I
