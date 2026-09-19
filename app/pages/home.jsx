@@ -21,8 +21,9 @@ export function Home() {
             wow very asset!
           </p>
           <p>
-            THE VERY BEST ZROCK MERCH ON THE INTERNET!!1!
+            THE VERY BEST UNAUTHORIZED ZROCK MERCH ON THE INTERNET!!1!
           </p>
+          <p className="blink_me" style={{color: "#00FFFF"}}>METICULOUSLY CRAFTED INTENTIONALLY BAD WEB DESIGN! IT'S EVEN MOBILE RESPONSIVE!1! :3</p>
           <img className="inline" src="/img/new3-3.gif" />
           <img className="inline"  src="/img/download-2.gif" />
         </div>

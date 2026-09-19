@@ -456,3 +456,13 @@ img.lazy {
   overflow: hidden;
   background-color: #000000aa;
 }
+
+.blink_me {
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
