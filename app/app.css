@@ -90,6 +90,14 @@ footer a {
   text-decoration: none;
 }
 
+.sticky-footer {
+  bottom: -10px;
+  left: 0px;
+  position: fixed;
+  z-index: 9998;
+  pointer-events: none;
+}
+
 h2 > a {
   margin-right: 1rem;
 }

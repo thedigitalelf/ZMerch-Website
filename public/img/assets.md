@@ -335,3 +335,6 @@ https://web.archive.org/web/20091022201120/http://geocities.com/the_true_ya_yupp
 
 ## `i-like-to-move-it.mp3`
 https://www.youtube.com/watch?v=hdcTmpvDO0I
+
+## `bee-movie-script.txt`
+https://gist.github.com/MattIPv4/045239bc27b16b2bcf7a3a9a4648c08a

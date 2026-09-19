@@ -1,4 +1,8 @@
+import beeMovie from '../../public/bee-movie-script.txt?raw'
+import { useAudio } from './funMode.jsx'
+
 export function Footer(){
+  const { funMode } = useAudio()
   return (
     <>
       <img src="/img/lemmings-footer.gif" style={{width:"100%"}} />
@@ -15,6 +19,8 @@ export function Footer(){
           <div><img style={{width:"auto", maxHeight: "50px"}} src="/img/transflaganim.gif" /></div>
           <div><img style={{width:"auto"}} src="/img/Goldn_Puppy.gif" /></div>
         </div>
+          <br />
+          { funMode && <p className="sticky-footer fun-active"><marquee>{beeMovie}</marquee></p> }
         <div className="md:hidden">
           <br />
           <br />

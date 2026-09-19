@@ -41,7 +41,7 @@ export function FunMode () {
     const funToggles = document.querySelectorAll('.fun-active')
 
 
-    audio.volume = 0.02;
+    audio.volume = 0.05;
 
     if (funMode && funModeActive) {
       // funModeRunning = true;
