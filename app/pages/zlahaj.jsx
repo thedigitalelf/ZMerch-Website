@@ -12,7 +12,7 @@ export function Zlahaj(){
   const [triggerDownload, setTriggerDownload] = useState(false);
 
   useEffect(() => {
-    setCurrentSong("/audio/undersea.mp3")
+    setCurrentSong("/audio/baby-shark.mp3")
   }, [setCurrentSong])
 
   return (
