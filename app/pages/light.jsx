@@ -31,7 +31,7 @@ export function Light(){
   return (
     <>
       <div className={`fullscreen-vid-overlay opacity-40 ${funMode && funModeActive ? "visible" : "hidden"}`}>
-        <video ref={videoRef} autoPlay muted loop playsinline className="w-full h-full" style={{objectFit: "fill"}}>
+        <video ref={videoRef} autoPlay muted loop playsinline webkit-playsinline className="w-full h-full" style={{objectFit: "fill"}}>
           <source src="/audio/oiia-stars.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
